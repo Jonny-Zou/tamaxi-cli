@@ -3,5 +3,8 @@
 module.exports = utils;
 
 function utils() {
-    // TODO
+  // TODO
+  console.log('hello lerna')
+  console.log('lerna publish')
+  console.log('lerna')
 }
