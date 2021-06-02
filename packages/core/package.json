@@ -4,8 +4,11 @@
   "description": "> TODO: description",
   "author": "Jonny-Zou <1065620646@qq.com>",
   "homepage": "https://github.com/Jonny-Zou/tamaxi-cli#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/core.js",
+  "bin": {
+    "tamaxi": "./bin/tamaxi-cli.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -25,5 +28,8 @@
   },
   "bugs": {
     "url": "https://github.com/Jonny-Zou/tamaxi-cli/issues"
+  },
+  "dependencies": {
+    "@tamxi-cli/utils": "D:\\Private\\tamaxi-cli\\packages\\utils"
   }
 }
